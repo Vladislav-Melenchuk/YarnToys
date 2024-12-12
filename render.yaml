@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: my-mvc-app
-    env: docker
-    dockerfilePath: ./CW/Dockerfile
-    rootDir: ./CW
-    branch: main
-    healthCheckPath: /
