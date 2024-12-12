@@ -28,12 +28,12 @@
 
 1. Клонуйте репозиторій:
     ```bash
-    git clone https://github.com/yourusername/knitted-toys-shop.git
+    git clone https://github.com/Vladislav-Melenchuk/YarnToys.git
     ```
 
 2. Перейдіть до директорії проекту:
     ```bash
-    cd knitted-toys-shop
+    cd YarnToys
     ```
 
 3. Встановіть залежності для Backend:
