@@ -1,0 +1,47 @@
+﻿@model CW.Models.Order
+
+<link rel="stylesheet" href="/css/orderDetails.css" />
+
+<h1 class="text-center mb-4">Деталі замовлення</h1>
+
+<div class="container">
+    <div class="card shadow p-4 mb-4">
+        <h4>Інформація про замовлення</h4>
+        <p><strong>Номер замовлення:</strong> @Model.Id</p>
+        <p><strong>Дата замовлення:</strong> @Model.OrderDate.ToString("dd.MM.yyyy HH:mm")</p>
+        <p><strong>Адреса доставки:</strong> @Model.Address</p>
+        <p><strong>Користувач:</strong> @Model.User.Username</p>
+        <p><strong>Ім'я:</strong>@Model.FullName</p>
+        <p><strong>Номер телефону:</strong>@Model.PhoneNumber</p>
+        <p><strong>Коментар:</strong> @Model.AdditionalNotes</p>
+    </div>
+
+    <div class="card shadow p-4">
+        <h4>Товари у замовленні</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Назва</th>
+                    <th>Кількість</th>
+                    <th>Ціна за одиницю</th>
+                    <th>Разом</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    <tr>
+                        <td>@item.Product.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Product.Price.ToString("C", new System.Globalization.CultureInfo("uk-UA"))</td>
+                        <td>@(item.Quantity * item.Product.Price)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-end mt-4">
+        <a href="/Admin/Orders" class="btn btn-secondary">Повернутися до списку замовлень</a>
+    </div>
+</div>

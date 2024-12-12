@@ -1,0 +1,40 @@
+﻿@model CW.Models.Order
+
+<link rel="stylesheet" href="/css/orderConfirmation.css" />
+
+<h1 class="text-center">Дякуємо за ваше замовлення!</h1>
+
+<div class="container">
+    <p>Ваше замовлення успішно оформлено!</p>
+    <h3>Деталі замовлення:</h3>
+    <ul>
+        <li><strong>Номер замовлення:</strong> @Model.Id</li>
+        <li><strong>Дата оформлення:</strong> @Model.OrderDate.ToString("dd.MM.yyyy HH:mm")</li>
+        <li><strong>Статус замовлення:</strong> @CW.Controllers.AdminController.TranslateStatus(Model.Status)</li>
+        <li><strong>Адреса доставки:</strong> @Model.Address</li>
+        <li><strong>Коментар:</strong> @Model.AdditionalNotes</li>
+    </ul>
+
+    <h4>Товари:</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Кількість</th>
+                <th>Ціна</th>
+                <th>Загальна вартість</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Price.ToString("C", new System.Globalization.CultureInfo("uk-UA"))</td>
+                    <td>@(item.Quantity * item.Product.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

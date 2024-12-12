@@ -1,0 +1,130 @@
+﻿/* Общий стиль для страницы */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #fff8e1; 
+    color: #4b3832;
+}
+
+/* Левая часть с изображением */
+.login-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+    .login-left .login-image {
+        max-width: 80%; 
+        max-height: 50%;
+        border-radius: 10px;
+    }
+
+/* Правая часть с формой */
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: transparent; 
+    text-align: center;
+}
+
+    /* Стиль заголовка */
+    .login-card h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #4b3832; 
+    }
+
+    /* Стили для формы */
+    .login-card .form-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .login-card label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #4b3832; 
+    }
+
+    .login-card .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+        .login-card .form-control:focus {
+            border-color: #ff758c;
+            box-shadow: 0 0 5px rgba(255, 117, 140, 0.5);
+            outline: none;
+        }
+
+    .login-card button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff758c; 
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .login-card button:hover {
+            background-color: #ff99ac; 
+        }
+
+    .login-card a {
+        color: #4b3832; 
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .login-card a:hover {
+            color: #ff758c;
+        }
+
+
+.alert {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.form-group.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+#rememberMe {
+    margin-right: 10px; 
+}
+
+button.btn-primary {
+    margin-top: 15px; 
+}
+

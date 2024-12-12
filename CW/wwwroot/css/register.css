@@ -1,0 +1,100 @@
+﻿/* Общий стиль для страницы */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff8e1; 
+    color: #4b3832; 
+    overflow: hidden; 
+    margin: 30px;
+    border-radius: 30px;
+}
+
+/* Левая часть с изображением */
+.register-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+    .register-left .register-image {
+        max-height: 80%;
+        width: 80%; 
+        object-fit: cover; 
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    }
+
+/* Правая часть с формой */
+.register-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #fff; 
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+    /* Стиль заголовка */
+    .register-card h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #4b3832; 
+    }
+
+    /* Стили для формы */
+    .register-card .form-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .register-card label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #4b3832; 
+    }
+
+    .register-card .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+        .register-card .form-control:focus {
+            border-color: #ff758c;
+            box-shadow: 0 0 5px rgba(255, 117, 140, 0.5);
+            outline: none;
+        }
+
+    .register-card button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff758c; 
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .register-card button:hover {
+            background-color: #ff99ac; 
+        }

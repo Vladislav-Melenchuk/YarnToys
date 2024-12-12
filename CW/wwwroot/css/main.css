@@ -1,0 +1,159 @@
+﻿/* ===== Основные стили ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf3dd; 
+    color: #4b3832; 
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #ff758c; 
+}
+
+    a:hover {
+        color: #ff99ac; 
+        text-decoration: underline;
+    }
+
+/* ===== Хедер ===== */
+header {
+    background-color: #f8ecc2; 
+    border-bottom: 2px solid #fcefd5; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #4b3832; 
+}
+
+.nav-link {
+    color: #4b3832; 
+    font-weight: 500;
+}
+
+    .nav-link:hover {
+        color: #ff758c; 
+    }
+
+.navbar-nav .badge {
+    background-color: #ff6b6b; 
+    color: white;
+    font-size: 0.75rem;
+    border-radius: 50%;
+}
+
+
+/* ===== Кнопки ===== */
+.btn-primary {
+    background-color: #ff758c;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #ff99ac;
+    }
+
+.btn-outline-danger {
+    border-color: #ff758c;
+    color: #ff758c;
+}
+
+    .btn-outline-danger:hover {
+        background-color: #ff758c;
+        color: white;
+    }
+
+.btn-outline-primary {
+    border-color: #76b5c5;
+    color: #76b5c5;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #76b5c5;
+        color: white;
+    }
+
+/* ===== Разделы ===== */
+.main-banner {
+    background-color: #fff8e1; 
+    color: #4b3832; 
+    padding: 50px 0;
+    border-bottom: 2px solid #fcefd5;
+    text-align: center;
+}
+
+    .main-banner .btn-primary {
+        font-size: 1.2rem;
+    }
+
+.about-us {
+    background-color: #fcefd5; 
+    color: #4b3832;
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .about-us img {
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+.why-us {
+    background-color: #fdf6e3; 
+    color: #4b3832;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .why-us h3 {
+        color: #ff758c;
+    }
+
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4caf50; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+    .notification.fade-out {
+        opacity: 0;
+    }
+
+
+
+main {
+    flex-grow: 1; 
+}
+
+.footer {
+    background-color: #f8ecc2;
+    color: #4b3832; 
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #fcefd5; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

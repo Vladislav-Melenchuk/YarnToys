@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CW.Models.Product>
+
+<h1>Адмін-панель</h1>
+<a href="/Product/Create" class="btn btn-primary mb-3">Додати товар</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Назва</th>
+            <th>Опис</th>
+            <th>Ціна</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>
+                    <a href="/Product/Edit/@product.Id" class="btn btn-warning btn-sm">Редагувати</a>
+                    <form asp-action="Delete" asp-controller="Product" method="post" style="display: inline;">
+                        <input type="hidden" name="id" value="@product.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

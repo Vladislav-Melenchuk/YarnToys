@@ -1,0 +1,23 @@
+﻿@model CW.Models.Product
+
+<h1>Додати товар</h1>
+
+<form asp-action="Create" asp-controller="Product" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Назва</label>
+        <input type="text" class="form-control" id="Name" name="Name" required>
+    </div>
+    <div class="mb-3">
+        <label for="Description" class="form-label">Опис</label>
+        <textarea class="form-control" id="Description" name="Description"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="Price" class="form-label">Ціна</label>
+        <input type="number" class="form-control" id="Price" name="Price" step="0.01" required>
+    </div>
+    <div class="mb-3">
+        <label for="file" class="form-label">Зображення</label>
+        <input type="file" class="form-control" id="file" name="file" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Зберегти</button>
+</form>

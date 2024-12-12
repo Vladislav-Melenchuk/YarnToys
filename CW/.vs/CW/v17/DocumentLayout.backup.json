@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\WEB\\CourseWork\\CW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1DC1-7F35-41D7-A5DE-66BC0011989B}|CW.csproj|d:\\study\\web\\coursework\\cw\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1DC1-7F35-41D7-A5DE-66BC0011989B}|CW.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1DC1-7F35-41D7-A5DE-66BC0011989B}|CW.csproj|d:\\study\\web\\coursework\\cw\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1DC1-7F35-41D7-A5DE-66BC0011989B}|CW.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1DC1-7F35-41D7-A5DE-66BC0011989B}|CW.csproj|d:\\study\\web\\coursework\\cw\\views\\product\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1DC1-7F35-41D7-A5DE-66BC0011989B}|CW.csproj|solutionrelative:views\\product\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\CourseWork\\CW\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\CourseWork\\CW\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T23:57:07.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\CourseWork\\CW\\Views\\Product\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\AdminPanel.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\CourseWork\\CW\\Views\\Product\\AdminPanel.cshtml",
+              "RelativeToolTip": "Views\\Product\\AdminPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T23:53:58.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Study\\WEB\\CourseWork\\CW\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Study\\WEB\\CourseWork\\CW\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwIYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:13:35.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

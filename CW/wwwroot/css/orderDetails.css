@@ -1,0 +1,50 @@
+﻿.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h4 {
+    color: #4b3832;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.table {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    .table th, .table td {
+        text-align: center;
+        padding: 10px;
+        color: #555;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        color: #fff;
+    }

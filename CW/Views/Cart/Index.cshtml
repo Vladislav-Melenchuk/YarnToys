@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CW.Models.CartItem>
+
+<link rel="stylesheet" href="/css/cart.css" />
+
+<div class="cart-page">
+
+    <div class="banner"></div>
+    <div class="cart-container"></div>
+
+    @if (!Model.Any())
+    {
+        <h1 class="text-center">Кошик</h1>
+        <p class="text-center">Ваш кошик порожній.</p>
+    }
+    else
+    {
+        <h1 class="text-center">Кошик</h1>
+        <div class="container">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Назва</th>
+                        <th>Кількість</th>
+                        <th>Ціна</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Product.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Product.Price.ToString("C", new System.Globalization.CultureInfo("uk-UA"))</td>
+                            <td>
+                                <form asp-action="RemoveFromCart" asp-controller="Cart" method="post">
+                                    <input type="hidden" name="cartItemId" value="@item.Id" />
+                                    <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            
+            <div class="text-end">
+                <p class="total-price">До сплати: <strong>@Model.Sum(x => x.Quantity * x.Product.Price).ToString("C", new System.Globalization.CultureInfo("uk-UA"))</strong></p>
+            </div>
+
+            
+            <div class="text-end mt-4">
+                <a href="/" class="btn btn-outline-secondary me-3">Продовжити покупки</a>
+                <a href="/Cart/Checkout" class="btn btn-primary">Оформити замовлення</a>
+            </div>
+        </div>
+
+    }
+</div>

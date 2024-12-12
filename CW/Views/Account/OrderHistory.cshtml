@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CW.Models.Order>
+
+<link rel="stylesheet" href="/css/orderHistory.css" />
+
+<div class="order-history-page">
+    
+    <div class="banner">
+        
+        <div class="banner-text">
+
+        </div>
+    </div>
+
+    <div class="container">
+        @if (!Model.Any())
+        {
+            <h1 class="text-center">Історія замовлень</h1>
+            <p class="text-center">Ви ще не зробили жодного замовлення.</p>
+        }
+        else
+        {
+            <h1 class="text-center mb-4">Історія замовлень</h1>
+            <table class="table table-striped">
+                <thead class="table-light">
+                    <tr>
+                        <th>Дата</th>
+                        <th>Статус</th>
+                        <th>Товари</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.OrderDate.ToShortDateString()</td>
+                            <td>@CW.Controllers.AdminController.TranslateStatus(order.Status)</td>
+                            <td>
+                                <ul class="product-list">
+                                    @foreach (var item in order.Items)
+                                    {
+                                        <li>@item.Product.Name x @item.Quantity</li>
+                                    }
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

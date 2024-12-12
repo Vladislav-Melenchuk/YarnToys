@@ -1,0 +1,93 @@
+﻿/* ===== Основной стиль страницы ===== */
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #faf3dd;
+    padding: 20px;
+}
+
+/* ===== Баннер ===== */
+.banner {
+    width: 100%;
+    background: url('/img/profile-banner.jpg') no-repeat center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    border-radius:30px;
+}
+
+    .banner h1 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+/* ===== Карточка профиля ===== */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.user-info h2 {
+    font-size: 1.5rem;
+    color: #4b3832;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fcefd5;
+    padding-bottom: 10px;
+}
+
+.user-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ===== Кнопки ===== */
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff758c;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn:hover {
+        background-color: #ff99ac;
+        transform: translateY(-2px);
+    }
+
+    .btn:active {
+        background-color: #ff4d6d;
+        transform: translateY(0);
+    }

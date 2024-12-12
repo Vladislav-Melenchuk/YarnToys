@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CW.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CW.lverm75wkx.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\0fb8fb2f-b1dd-486e-88fb-b28541a300d2.jpg",
+      "PackagePath": "staticwebassets\\Product\\0fb8fb2f-b1dd-486e-88fb-b28541a300d2.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\13aee013-4cb5-48d2-841b-7fc957546ed6.jpg",
+      "PackagePath": "staticwebassets\\Product\\13aee013-4cb5-48d2-841b-7fc957546ed6.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\1b3d296f-8730-4130-ba24-32adf229ef52.jpg",
+      "PackagePath": "staticwebassets\\Product\\1b3d296f-8730-4130-ba24-32adf229ef52.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\28144a83-9636-4f02-9972-c3bf3b89acd6.jpg",
+      "PackagePath": "staticwebassets\\Product\\28144a83-9636-4f02-9972-c3bf3b89acd6.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\2be2e265-ab65-405b-bba1-9e6649cfe8b4.jpg",
+      "PackagePath": "staticwebassets\\Product\\2be2e265-ab65-405b-bba1-9e6649cfe8b4.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\5b2583c9-e7f5-4e5b-bbf7-d78dd94051f3.jpg",
+      "PackagePath": "staticwebassets\\Product\\5b2583c9-e7f5-4e5b-bbf7-d78dd94051f3.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\5b57efeb-632f-4118-9516-e623681fdaa4.jpg",
+      "PackagePath": "staticwebassets\\Product\\5b57efeb-632f-4118-9516-e623681fdaa4.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\635f637f-7f6e-4f77-9f6c-20a22567cb38.jpg",
+      "PackagePath": "staticwebassets\\Product\\635f637f-7f6e-4f77-9f6c-20a22567cb38.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\69a98c52-a642-494f-86da-fc4f59d21711.jpg",
+      "PackagePath": "staticwebassets\\Product\\69a98c52-a642-494f-86da-fc4f59d21711.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\6db1a89b-a75e-490a-9e8b-785d88983911.jpg",
+      "PackagePath": "staticwebassets\\Product\\6db1a89b-a75e-490a-9e8b-785d88983911.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\716deb3b-edd0-49f0-b40f-9335edd56624.jpg",
+      "PackagePath": "staticwebassets\\Product\\716deb3b-edd0-49f0-b40f-9335edd56624.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\72d9693b-339a-455e-9e4b-fee1b1da86da.jpg",
+      "PackagePath": "staticwebassets\\Product\\72d9693b-339a-455e-9e4b-fee1b1da86da.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\7f57d58c-b0fe-44de-b743-1a996016ff27.jpg",
+      "PackagePath": "staticwebassets\\Product\\7f57d58c-b0fe-44de-b743-1a996016ff27.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\85ea9e53-0e8d-4d63-9ed5-72bae25baeea.jpg",
+      "PackagePath": "staticwebassets\\Product\\85ea9e53-0e8d-4d63-9ed5-72bae25baeea.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\88e71f71-57c0-465c-a78f-8b4327473175.jpg",
+      "PackagePath": "staticwebassets\\Product\\88e71f71-57c0-465c-a78f-8b4327473175.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\9719a0bb-a758-4a59-9628-72af208dfcb5.jpg",
+      "PackagePath": "staticwebassets\\Product\\9719a0bb-a758-4a59-9628-72af208dfcb5.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\9a7574da-321c-48ea-892b-9c063aeb71fc.jpg",
+      "PackagePath": "staticwebassets\\Product\\9a7574da-321c-48ea-892b-9c063aeb71fc.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\9d20b0b5-faea-45fd-9e1b-9bae963965a9.jpg",
+      "PackagePath": "staticwebassets\\Product\\9d20b0b5-faea-45fd-9e1b-9bae963965a9.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\9f888b83-a8a4-4384-9a76-e61ff085873e.jpg",
+      "PackagePath": "staticwebassets\\Product\\9f888b83-a8a4-4384-9a76-e61ff085873e.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\a0eafbf3-c42c-44c9-98d6-671e5d1b1e36.jpg",
+      "PackagePath": "staticwebassets\\Product\\a0eafbf3-c42c-44c9-98d6-671e5d1b1e36.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\a0ff2af7-9834-48ee-b918-4d224e6d5951.jpg",
+      "PackagePath": "staticwebassets\\Product\\a0ff2af7-9834-48ee-b918-4d224e6d5951.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\a4edbb03-7ccd-41bd-807f-8930315b3406.jpg",
+      "PackagePath": "staticwebassets\\Product\\a4edbb03-7ccd-41bd-807f-8930315b3406.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\a58c5e13-ffa8-448d-95dc-3658f0512de7.jpg",
+      "PackagePath": "staticwebassets\\Product\\a58c5e13-ffa8-448d-95dc-3658f0512de7.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\adceb7ee-7884-4239-a20d-9ab40fa5dc16.jpg",
+      "PackagePath": "staticwebassets\\Product\\adceb7ee-7884-4239-a20d-9ab40fa5dc16.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\aebf826f-5dfa-480f-8afc-395397b61706.jpg",
+      "PackagePath": "staticwebassets\\Product\\aebf826f-5dfa-480f-8afc-395397b61706.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\bf31765a-a303-414b-a1ea-d6104d96cff1.jpg",
+      "PackagePath": "staticwebassets\\Product\\bf31765a-a303-414b-a1ea-d6104d96cff1.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\cc2d5c94-676e-4f49-88ab-e39247973640.jpg",
+      "PackagePath": "staticwebassets\\Product\\cc2d5c94-676e-4f49-88ab-e39247973640.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\cf6caf14-f855-4166-9372-d54f4871db30.jpg",
+      "PackagePath": "staticwebassets\\Product\\cf6caf14-f855-4166-9372-d54f4871db30.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\e26ae4cb-e9da-4454-aec5-3dc52b810f6f.jpg",
+      "PackagePath": "staticwebassets\\Product\\e26ae4cb-e9da-4454-aec5-3dc52b810f6f.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\e614d91b-9239-4c46-be03-ec3bf11546e6.jpg",
+      "PackagePath": "staticwebassets\\Product\\e614d91b-9239-4c46-be03-ec3bf11546e6.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\ec33127d-fa7a-4861-bf21-b63a94304071.jpg",
+      "PackagePath": "staticwebassets\\Product\\ec33127d-fa7a-4861-bf21-b63a94304071.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\ee2a3b88-1298-43b8-8cf6-295e1646ab7c.jpg",
+      "PackagePath": "staticwebassets\\Product\\ee2a3b88-1298-43b8-8cf6-295e1646ab7c.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\f1f87ea3-483f-4b47-aa8f-2111e38b15bf.jpg",
+      "PackagePath": "staticwebassets\\Product\\f1f87ea3-483f-4b47-aa8f-2111e38b15bf.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\f67923c5-833c-420a-af12-f34505a5a750.jpg",
+      "PackagePath": "staticwebassets\\Product\\f67923c5-833c-420a-af12-f34505a5a750.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\Product\\fd2c8abe-a4f1-4606-964c-a6d887101386.jpg",
+      "PackagePath": "staticwebassets\\Product\\fd2c8abe-a4f1-4606-964c-a6d887101386.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\catalog.css",
+      "PackagePath": "staticwebassets\\css\\catalog.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\change-password.css",
+      "PackagePath": "staticwebassets\\css\\change-password.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\css\\checkout.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\orderConfirmation.css",
+      "PackagePath": "staticwebassets\\css\\orderConfirmation.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\orderDetails.css",
+      "PackagePath": "staticwebassets\\css\\orderDetails.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\orderHistory.css",
+      "PackagePath": "staticwebassets\\css\\orderHistory.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\orders.css",
+      "PackagePath": "staticwebassets\\css\\orders.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\banner.png",
+      "PackagePath": "staticwebassets\\img\\banner.png"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\bannerCart.jpg",
+      "PackagePath": "staticwebassets\\img\\bannerCart.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\bannerCatalog.jpg",
+      "PackagePath": "staticwebassets\\img\\bannerCatalog.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\bannerOrderHistory.jpg",
+      "PackagePath": "staticwebassets\\img\\bannerOrderHistory.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\high-quality.png",
+      "PackagePath": "staticwebassets\\img\\high-quality.png"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\idea.png",
+      "PackagePath": "staticwebassets\\img\\idea.png"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\login.png",
+      "PackagePath": "staticwebassets\\img\\login.png"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\profile-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\profile-banner.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\register.jpg",
+      "PackagePath": "staticwebassets\\img\\register.jpg"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\shield.png",
+      "PackagePath": "staticwebassets\\img\\shield.png"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\img\\yarn.png",
+      "PackagePath": "staticwebassets\\img\\yarn.png"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Study\\WEB\\CourseWork\\CW\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CW.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CW.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CW.props",
+      "PackagePath": "build\\CW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CW.props",
+      "PackagePath": "buildMultiTargeting\\CW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CW.props",
+      "PackagePath": "buildTransitive\\CW.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

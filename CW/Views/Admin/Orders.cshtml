@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CW.Models.Order>
+
+<link rel="stylesheet" href="/css/orders.css" />
+
+<h1 class="text-center mb-4">Управління замовленнями</h1>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Номер замовлення</th>
+                <th>Користувач</th>
+                <th>Дата замовлення</th>
+                <th>Статус</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.User.Username</td>
+                    <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>
+                        <form asp-action="UpdateOrderStatus" asp-controller="Admin" method="post">
+                            <input type="hidden" name="orderId" value="@order.Id" />
+                            <select name="status" class="form-select">
+                                <option value="Pending" selected="@(order.Status == "Pending")">В очікуванні</option>
+                                <option value="Completed" selected="@(order.Status == "Completed")">Завершено</option>
+                                <option value="Delivered" selected="@(order.Status == "Delivered")">Доставлено</option>
+                                <option value="Cancelled" selected="@(order.Status == "Cancelled")">Скасовано</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary btn-sm mt-1">Оновити</button>
+                        </form>
+                    </td>
+                    <td>
+                        <a href="/Admin/OrderDetails/@order.Id" class="btn btn-info btn-sm">Детальніше</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

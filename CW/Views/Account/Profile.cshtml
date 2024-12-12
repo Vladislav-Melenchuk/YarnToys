@@ -1,0 +1,27 @@
+﻿@model User
+
+<link rel="stylesheet" href="/css/profile.css" />
+
+<div class="profile-page">
+  
+    <div class="banner"></div>
+
+
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="user-info">
+                <h2>Інформація про користувача</h2>
+                <p><i class="bi bi-person"></i> <strong>Логін:</strong> @Model.Username</p>
+                <p><i class="bi bi-telephone"></i> <strong>Номер телефону:</strong> @Model.PhoneNumber</p>
+                <p><i class="bi bi-envelope"></i> <strong>Email:</strong> @(string.IsNullOrEmpty(Model.Email) ? "Не вказано" : Model.Email)</p>
+            </div>
+            <div class="button-group">
+                <a href="/Account/ProfileEdit" class="btn btn-primary">Редагувати профіль</a>
+                <a href="/Account/ChangePassword" class="btn btn-primary">Змінити пароль</a>
+                <form asp-action="Logout" method="post" class="d-inline">
+                    <button type="submit" class="btn btn-primary">Вийти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

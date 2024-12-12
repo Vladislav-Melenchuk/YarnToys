@@ -1,0 +1,88 @@
+﻿@model IEnumerable<CW.Models.Product>
+
+<link rel="stylesheet" href="/css/catalog.css" />
+
+<div class="catalog-page">
+
+    <div class="banner">
+        <img src="/img/bannerCatalog.jpg" alt="Каталог" class="img-fluid">
+        <div class="banner-text">
+            <h1>Каталог товарів</h1>
+            <p>Відкрийте для себе дивовижні вироби з пряжі!</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="notification" class="alert alert-success" style="display: none; position: fixed; top: 10px; right: 10px; z-index: 1000;">
+            Товар додано до кошика!
+        </div>
+
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-sm-6 col-md-4 mb-4 d-flex">
+                    <div class="card flex-grow-1">
+                        <img src="@Url.Content("~/Product/" + product.ImagePath)" class="card-img-top" alt="@product.Name" />
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                            <p class="card-price">Ціна: @product.Price.ToString("C", new System.Globalization.CultureInfo("uk-UA"))</p>
+                            <form asp-action="AddToCart" asp-controller="Catalog" method="post" class="add-to-cart-form">
+                                <input type="hidden" name="productId" value="@product.Id" />
+                                <button type="button" class="btn btn-primary add-to-cart-button">Додати до кошика</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const buttons = document.querySelectorAll(".add-to-cart-button");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", (e) => {
+                const form = e.target.closest(".add-to-cart-form"); 
+                const formData = new FormData(form); 
+
+                fetch(form.action, {
+                    method: form.method,
+                    body: formData
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json(); 
+                        } else {
+                            throw new Error("Помилка з'єднання із сервером.");
+                        }
+                    })
+                    .then(data => {
+                        if (data.success) {
+                            showNotification(data.message, "success");
+                        } else {
+                            showNotification(data.message, "danger");
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Помилка:", error);
+                        showNotification("Сталася помилка.", "danger");
+                    });
+            });
+        });
+
+        function showNotification(message, type = "success") {
+            const notification = document.getElementById("notification");
+            notification.textContent = message;
+            notification.className = `alert alert-${type}`;
+            notification.style.display = "block";
+
+            setTimeout(() => {
+                notification.style.display = "none";
+            }, 3000);
+        }
+    });
+</script>
